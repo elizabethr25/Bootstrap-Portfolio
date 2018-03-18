@@ -5,43 +5,93 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Contact</title>
+    <title>Bootstrap Contact</title>
+
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+        crossorigin="anonymous">
+
 </head>
 
 <body>
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"
+                    aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.html">Elizabeth Richardson</a>
+            </div>
+            <ul class="nav navbar-nav navbar-right">
+                <li>
+                    <a href="index.html">About</a>
+                </li>
+                <li>
+                    <a href="portfolio.html">Portfolio</a>
+                </li>
+                <li>
+                    <a href="contact.html">Contact</a>
+                </li>
+            </ul>
+        </div>
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
 
-    <header id=mastheader>
-        <a href="index.html" id="logo">Elizabeth Richardson</a>
-        <ul class="nav nav-tabs">
-            <li role="presentation" class="active">
-                <a href="#">About Me</a>
-            </li>
-            <li role="presentation">
-                <a href="#">Portfolio</a>
-            </li>
-            <li role="presentation">
-                <a href="#">Contact</a>
-            </li>
-        </ul>
-    </header>
+    <div class="panel panel-default">
+        <div class="panel-heading">Contact</div>
+        <div class="panel-body">
 
-    <div class="input-group">
-            <span class="input-group-addon" id="basic-addon1">Name</span>
-            <input type="text" class="form-control" placeholder="John Smith" aria-describedby="basic-addon1">
-          </div>
-          
-          <div class="input-group">
-            <span class="input-group-addon" id="basic-addon2">Email</span>
-            <input type="text" class="form-control" placeholder="example@gmail.com" aria-describedby="basic-addon2"> 
-          </div>
-          
-          <div class="input-group">
-            <span class="input-group-addon" id="basic-addon3">
-                Message
-            </span>
-            <textarea id="message" name="message" required="required"></textarea>
-            <input type="Submit">
-          </div>
+            <div class="input-group">
+                <span class="input-group-addon" id="basic-addon1">Name</span>
+                <input type="text" class="form-control" placeholder="John Smith" aria-describedby="basic-addon1">
+            </div>
+
+            <br>
+
+            <div class="input-group">
+                <span class="input-group-addon" id="basic-addon1">Email</span>
+                <input type="text" class="form-control" placeholder="example@gmail.com" aria-describedby="basic-addon1">
+            </div>
+
+            <br>
+
+            <div class="input-group">
+                <span class="input-group-addon" id="basic-addon1">Message</span>
+                <input type="text" class="form-control" aria-describedby="basic-addon1" rows="10" cols="50">
+            </div>
+
+
+            <div class="col-sm-3 ">
+                <div class="panel panel-default ">
+                    <div class="panel-heading ">
+                        <h3 class="panel-title ">Connect with Me</h3>
+                    </div>
+                    <div class="panel-body ">
+                        <img src="assets/images/github-128.png" class="social" alt="GitHub">
+                        <img src="assets/images/linkedin-128.png" class="social" alt="LinkedIn">
+                        <img src="assets/images/stackoverflow-128.png" class="social" alt="Stack Overflow">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+
+    <footer>
+        <div class="container">
+            Copyright &copy;
+        </div>
+    </footer>
+
+
 
 </body>
 

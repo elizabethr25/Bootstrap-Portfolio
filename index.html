@@ -1,39 +1,97 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Bootstrap Profile</title>
+
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+        crossorigin="anonymous">
+
 </head>
 
 <body>
-<header id=mastheader>
-    <a href="index.html" id="logo">Elizabeth Richardson</a>
-    <ul class="nav nav-tabs">
-        <li role="presentation" class="active"><a href="#">About Me</a></li>
-        <li role="presentation"><a href="#">Portfolio</a></li>
-        <li role="presentation"><a href="#">Contact</a></li>
-      </ul>
-</header>
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"
+                    aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.html">Elizabeth Richardson</a>
+            </div>
+            <ul class="nav navbar-nav navbar-right">
+                <li>
+                    <a href="index.html">About</a>
+                </li>
+                <li>
+                    <a href="portfolio.html">Portfolio</a>
+                </li>
+                <li>
+                    <a href="contact.html">Contact</a>
+                </li>
+            </ul>
+        </div>
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
 
-<div id=main-container>
-    <div class="panel panel-default">
-        <div class="panel-heading">
-          <h3 class="panel-title">About Me</h3>
+    <div class="container">
+        <div class="row">
+
+            <div class="col-sm-9">
+                <div class="row">
+                    <div class="page-header">
+                        <h2>About Me</h2>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-sm-3">
+                        <img src="assets/images/ER.jpg" style="width:150px" alt="Elizabeth Richardson"> </div>
+                    <div class="col-sm-9">
+
+                        <p>Hello, my name is Elizabeth Richardson! I am a graduate of The University of Arizona with a degree
+                            in Marketing, Class of 2014. I am currently taking the University of Arizona's Continuing Education
+                            Coding Bootcamp to become a Web Developer. </p>
+                        <p>I worked for over three years as an Account Executive in the logistics industry managing client shipping
+                            needs. I enjoyed working in this industry but I am ready for my next challenge.</p>
+                        <p> I am very excited to learn different programming languages, database management, and the basics for
+                            building apps. In my free time I like to read, cook, and travel the world!</p>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-3 ">
+                <div class="panel panel-default ">
+                    <div class="panel-heading ">
+                        <h3 class="panel-title ">Connect with Me</h3>
+                    </div>
+                    <div class="panel-body ">
+                        <img src="assets/images/github-128.png" class="social" alt="GitHub">
+                        <img src="assets/images/linkedin-128.png" class="social" alt="LinkedIn">
+                        <img src="assets/images/stackoverflow-128.png" class="social" alt="Stack Overflow">
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="panel-body">
-                <p>Hello, my name is Elizabeth Richardson! I am a graduate of The University of Arizona with a degree in Marketing, Class of 2014. I am currently taking the University of Arizona's Continuing Education Coding Bootcamp to become a Web Developer. </p>
-                <p>I worked for over three years as an Account Executive in the logistics industry managing client shipping needs. I enjoyed working in this industry but I am ready for my next challenge.</p>
-                <p> I am very excited to learn different programming languages, database management, and the basics for building apps. In my free time I like to read, cook, and travel the world!</p>
-        </div>
+
     </div>
-</div>
 
-<div class="panel panel-default">
-    
-        <div class="panel-footer">Copyright &copy;</div>
-</div>
+    <footer>
+        <div class="container">
+            Copyright &copy;
+        </div>
+    </footer>
 
 </body>
+
 </html>
